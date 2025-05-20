@@ -1,0 +1,21 @@
+{
+  "name": "sanpo",
+  "version": "0.0.0",
+  "description": "A delightful string matcher and formatter.",
+  "license": "MIT",
+  "repository": "github:yalkheder/sanpo",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/rm-rf.ts dist && tsc --project tsconfig.dist.json",
+    "check": "biome check"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.15.21",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=24.0.2"
+  },
+  "packageManager": "pnpm@10.11.0"
+}
